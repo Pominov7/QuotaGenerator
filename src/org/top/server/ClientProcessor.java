@@ -52,9 +52,7 @@ public class ClientProcessor {
 
             // цикл работы с клиентом
             while (true) {
-                // TODO: добавить логи работы с клиентом
                 // 1. читаем сообщение
-
                 String msg = receiver.receiveMsg();
 
                 // 2. анализируем сообщение
