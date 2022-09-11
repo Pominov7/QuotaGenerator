@@ -22,7 +22,7 @@ public class ClientProcessor {
     private Socket remoteClient;
     private PlugGenerator generator;
     int countQuotaClient = 1; // счётчик для подсчета отправленных цитат клиенту
-    final int countQuotaMax = 3;
+    final int countQuotaMax = 3; // максимальное число цитат для одного клиента
 
     // конструктор
     public ClientProcessor(PlugGenerator generator) {
