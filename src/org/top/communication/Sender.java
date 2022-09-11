@@ -3,8 +3,9 @@ package org.top.communication;
 import java.io.*;
 import java.net.Socket;
 
-// класс для отправки данных через сокет
+// Класс для отправки данных через сокет
 public class Sender {
+
     private PrintWriter out; // поток для отправки данных
 
     // конструктор

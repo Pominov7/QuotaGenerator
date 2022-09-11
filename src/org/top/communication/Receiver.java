@@ -1,10 +1,9 @@
 package org.top.communication;
 
-
 import java.io.*;
 import java.net.Socket;
 
-// класс для считывания данных через сокет
+// Класс для считывания данных через сокет
 public class Receiver {
 
     private BufferedReader in; // поток для чтения данных
