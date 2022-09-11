@@ -11,7 +11,7 @@ public class PlugGenerator implements IGenerator {
     public String getRandomQuota() {
         List<String> quotaList = new ArrayList<>();                // создается новый список
 
-        // 14-я строка для теста через telnet
+        // 15-я строка для теста через telnet
 //        try (FileReader reader = new FileReader("src/EngQuotaList.txt")) { // читаем из файла
 
         try (FileReader reader = new FileReader("src/RusQuotaList.txt")) { // читаем из файла
